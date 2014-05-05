@@ -44,19 +44,28 @@ use IEEE.STD_LOGIC_1164.ALL;
 ---------------- OV7670 pins ----------------
 
 entity main is
-    Port ( clk_100, reset : in  STD_LOGIC; 			 -- FPGA's clock, FPGA's reset(Active Low)
+    Port ( clk_100MHz, reset : in  STD_LOGIC; 			 		-- FPGA's clock, FPGA's reset(Active Low)
+
 -- OV7670 pins --
-			  sdioc : out  STD_LOGIC;  					 -- SCCB clock
-           sdiod : inout  STD_LOGIC;  					 -- SCCB data
-           xclk, reset_cam, pwdn : out  STD_LOGIC;  -- OV7670 clock, OV7670 reset(Active Low), OV7670 Power down(Active High)
-           pclk, vsync, href : in  STD_LOGIC;		 -- Pixel clock, Vertical synchronization, Horizontal synchronization
-           data : in  STD_LOGIC_VECTOR (7 downto 0) -- Video parallel input
+--			  ov_sdioc : out  STD_LOGIC;  					 	-- SCCB clock
+--			  ov_sdiod : inout  STD_LOGIC;  					 	-- SCCB data
+           ov_xclk, ov_reset, ov_pwdn : out  STD_LOGIC;  -- OV7670 clock, OV7670 reset(Active Low), OV7670 Power down(Active High)
+           ov_pclk, ov_vsync, ov_href : in  STD_LOGIC;	-- Pixel clock, Vertical synchronization, Horizontal synchronization
+           ov_data : in  STD_LOGIC_VECTOR (7 downto 0);	-- Video parallel input
 -- OV7670 pins --
 
 -- VGA pins --
+			  vga_vsync, vga_hsync : out STD_LOGIC; 	 				-- VGA Vertical synchronization, VGA Horizontal synchronization
+			  vga_red, vga_green, vga_blue : out STD_LOGIC_VECTOR(3 downto 0); -- VGA colors (4bits)
+		--	  vga_red, vga_green, vga_blue : out STD_LOGIC; -- VGA colors (1bit)
 -- VGA pins --
 
 -- Check pins --
+			  but : in STD_LOGIC_VECTOR(4 downto 0);
+			  sw  : in STD_LOGIC_VECTOR(15 downto 0);
+			  led : out STD_LOGIC_VECTOR(15 downto 0);
+			  an : out STD_LOGIC_VECTOR(7 downto 0);
+			  seg : out STD_LOGIC_VECTOR(6 downto 0)
 -- Check pins --
 			  );
 end main;
@@ -69,10 +78,12 @@ begin
 -- Line counter
 
 -- OV7670 module
-
+	
 -- Mem module
 
 -- VGA module
+
+-- 7 Segments module
 
 end Behavioral;
 
