@@ -1,0 +1,4 @@
+vhdl work "src/mod_VGA/Divisor4.vhd"
+vhdl work "src/mod_VGA/contador10bits.vhd"
+vhdl work "mod_Image.vhd"
+vhdl work "src/mod_VGA/mod_VGA.vhd"

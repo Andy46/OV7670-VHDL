@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed May 07 18:56:43 2014
+
+drc -z mod_VGA.ncd mod_VGA.pcf
+
+DRC detected 0 errors and 0 warnings.

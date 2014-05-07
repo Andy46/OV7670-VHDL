@@ -43,13 +43,15 @@ begin
 	clk_out <= clk_aux;
 	process(clk_in, clk_aux, reset)
 	begin
-		if reset = '0' then
-			clk_aux <= '0';
-			count <= '0';
-		elsif clk_in'event and clk_in = '1' then
-			count <= not count;
-			if count = '1' then 
-				clk_aux <= not clk_aux;
+		if clk_in'event and clk_in = '1' then
+			if reset = '0' then
+				clk_aux <= '0';
+				count <= '0';
+			else
+				count <= not count;
+				if count = '1' then 
+					clk_aux <= not clk_aux;
+				end if;
 			end if;
 		end if;
 	end process;

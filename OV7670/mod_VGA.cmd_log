@@ -1,0 +1,116 @@
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/Nexys4_Master.ucf -p xc7a100t-csg324-1 mod_VGA.ngc mod_VGA.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_VGA_map.ncd mod_VGA.ngd mod_VGA.pcf 
+par -w -intstyle ise -ol high -mt off mod_VGA_map.ncd mod_VGA.ncd mod_VGA.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mod_VGA.twx mod_VGA.ncd -o mod_VGA.twr mod_VGA.pcf 
+bitgen -intstyle ise -f mod_VGA.ut mod_VGA.ncd 

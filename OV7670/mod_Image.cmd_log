@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_Image.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_Image.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_Image.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_Image.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_Image.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_Image.syr" 
+xst -intstyle ise -ifn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_Image.xst" -ofn "C:/FPGA/Github/OV7670-VHDL/OV7670/mod_Image.syr" 
